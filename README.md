@@ -22,14 +22,12 @@ ensure r_notify
 ```
 
 
-
-```plaintext
-
 ## 使用方法
 
 在您的Lua脚本中，您可以使用以下方式触发通知：
 
 ```lua
+```plaintext
 exports.r_notify:ShowNotification(title, message, notificationType, duration, position)
 ```
 
